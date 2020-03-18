@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2019 The HavocOS Project
+# Copyright (C) 2017-2019 The AOSP Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_markw.mk
+    $(LOCAL_DIR)/aosp_markw.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_markw-user \
-    havoc_markw-userdebug \
-    havoc_markw-eng
+    aosp_markw-user \
+    aosp_markw-userdebug \
+    aosp_markw-eng
