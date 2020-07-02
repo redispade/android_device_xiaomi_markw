@@ -26,4 +26,10 @@
 
   <!-- FPSInfoService Fps file path -->
     <string name="config_fpsInfoSysNode" translatable="false">/sys/devices/virtual/graphics/fb0/measured_fps</string>
+
+  <!-- LockScreenCharger current sysfs path -->
+    <string name="config_currentPath">/sys/devices/soc/qpnp-smbcharger-14/power_supply/battery/current_now</string>
+
+  <!-- LockScreenCharger voltage sysfs path -->
+    <string name="config_voltagePath">/sys/devices/soc/qpnp-smbcharger-14/power_supply/battery/voltage_now</string>
 </resources>

@@ -1,6 +1,10 @@
 # Camera
 type camera_socket, file_type, data_file_type;
 
+# Charge Info
+type sysfs_voltageinfo, fs_type, sysfs_type;
+type sysfs_currentinfo, fs_type, sysfs_type;
+
 # Fingerprint
 type fpce_socket, file_type;
 type fpc_data_file, file_type, data_file_type, core_data_file_type;
